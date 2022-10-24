@@ -1,17 +1,11 @@
-package com.spring.repository;
 
+package com.spring.repository;
+import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.Map;
+import com.spring.entity.User;
 
 @Repository
-public interface UserRepository <User, Long>{
+public interface UserRepository extends CrudRepository<User, Long>{
 
-    Iterable findAll();
-
-    Map<Object, Object> findById(java.lang.Long id);
-
-    void save(com.spring.entity.User user);
-
-    void deleteById(java.lang.Long id);
 }

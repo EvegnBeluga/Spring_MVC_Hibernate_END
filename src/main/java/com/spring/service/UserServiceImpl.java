@@ -13,7 +13,7 @@ import java.util.List;
 @Transactional
 public class UserServiceImpl implements UserService {
 
-
+    // Implementing Constructor based DI
     private UserRepository repository;
 
     public UserServiceImpl() {
@@ -25,16 +25,18 @@ public class UserServiceImpl implements UserService {
         super();
         this.repository = repository;
     }
+
     @Override
     public List getAllUsers() {
-        List<Object> list = new ArrayList<>();
+        List list = new ArrayList();
         repository.findAll().forEach(list::add);
         return list;
     }
 
     @Override
     public User getUserById(Long id) {
-        return (User) repository.findById(id).get(id);
+        User user = repository.findById(id).get();
+        return user;
     }
 
     @Override

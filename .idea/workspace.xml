@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddeb3281-8ae9-4998-ab21-f512b410629e" name="Changes" comment="2.3.1">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0339884c-41c4-4502-99ae-5a89aae0fe6c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0339884c-41c4-4502-99ae-5a89aae0fe6c.xml" afterDir="false" />
+    <list default="true" id="ddeb3281-8ae9-4998-ab21-f512b410629e" name="Changes" comment="2.3.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/service/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +134,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.68" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
-      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Spring_MVC_Hibernate:war">
           <settings>
@@ -243,7 +242,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666429249888</updated>
-      <workItem from="1666429252183" duration="32661000" />
+      <workItem from="1666429252183" duration="36246000" />
     </task>
     <task id="LOCAL-00001" summary="2.3.1">
       <created>1666612571846</created>
@@ -259,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666612622441</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2.3.2">
+      <created>1666617337120</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666617337120</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +285,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2.3.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.3.1" />
+    <MESSAGE value="2.3.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.3.2" />
   </component>
 </project>
