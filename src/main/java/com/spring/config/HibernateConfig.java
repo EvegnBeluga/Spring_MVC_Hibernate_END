@@ -50,8 +50,6 @@ public class HibernateConfig {
 
     @Bean(name = "jpaTransactionManager")
     public PlatformTransactionManager txManager() {
-//        JpaTransactionManager jpaTransactionManager = new JpaTransactionManager();
-//        jpaTransactionManager.getEntityManagerFactoryBean().getObject();
         JpaTransactionManager jpaTransactionManager = new JpaTransactionManager();
         jpaTransactionManager.setEntityManagerFactory(getEntityManagerFactoryBean().getObject());
         return jpaTransactionManager;
