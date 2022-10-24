@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddeb3281-8ae9-4998-ab21-f512b410629e" name="Changes" comment="2.3.2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/service/UserServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="ddeb3281-8ae9-4998-ab21-f512b410629e" name="Changes" comment="2.3.3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,7 +238,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666429249888</updated>
-      <workItem from="1666429252183" duration="36246000" />
+      <workItem from="1666429252183" duration="36562000" />
     </task>
     <task id="LOCAL-00001" summary="2.3.1">
       <created>1666612571846</created>
@@ -265,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666617337120</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2.3.3">
+      <created>1666620959929</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666620959929</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +289,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="2.3.1" />
     <MESSAGE value="2.3.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.3.2" />
+    <MESSAGE value="2.3.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.3.3" />
   </component>
 </project>
