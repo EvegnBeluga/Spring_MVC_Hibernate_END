@@ -1,63 +1,44 @@
 package com.spring.service;
 
-import com.spring.entity.User;
-import com.spring.repository.UserRepository;
+import com.spring.dao.UserDao;
+import com.spring.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
-@Transactional
 public class UserServiceImpl implements UserService {
-
-    // Implementing Constructor based DI
-    private UserRepository repository;
-
-    public UserServiceImpl() {
-
-    }
+    private final UserDao userDao;
 
     @Autowired
-    public UserServiceImpl(UserRepository repository) {
-        super();
-        this.repository = repository;
+    public UserServiceImpl(UserDao userDao) {
+        this.userDao = userDao;
     }
 
     @Override
-    public List getAllUsers() {
-        List list = new ArrayList();
-        repository.findAll().forEach(list::add);
-        return list;
+    public void addUser(User user) {
+        userDao.addUser(user);
     }
 
     @Override
-    public User getUserById(Long id) {
-        User user = repository.findById(id).get();
-        return user;
+    public List<User> showUsers() {
+        return userDao.showUsers();
     }
 
     @Override
-    public boolean saveUser(User user) {
-        try {
-            repository.save(user);
-            return true;
-        }catch(Exception ex) {
-            return false;
-        }
+    public void deleteUserById(int id) {
+        userDao.deleteUserById(id);
     }
 
     @Override
-    public boolean deleteUserById(Long id) {
-        try {
-            repository.deleteById(id);
-            return true;
-        }catch(Exception ex) {
-            return false;
-        }
+    public User getUserById(int id) {
+        return userDao.getUserById(id);
+    }
 
+    @Override
+    public void updateUser(User userToUpdate) {
+        userDao.updateUser(userToUpdate);
     }
 
 }

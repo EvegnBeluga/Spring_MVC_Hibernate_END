@@ -3,13 +3,43 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="Spring_MVC_Hibernate:war" />
+      <artifact name="Spring_MVC_Hibernate:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddeb3281-8ae9-4998-ab21-f512b410629e" name="Changes" comment="2.3.3" />
+    <list default="true" id="ddeb3281-8ae9-4998-ab21-f512b410629e" name="Changes" comment="2.3.3">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/new.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0339884c-41c4-4502-99ae-5a89aae0fe6c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0339884c-41c4-4502-99ae-5a89aae0fe6c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b93d69d6-f711-41ef-862b-8bfb1b04d61f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b93d69d6-f711-41ef-862b-8bfb1b04d61f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b93d69d6-f711-41ef-862b-8bfb1b04d61f/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b93d69d6-f711-41ef-862b-8bfb1b04d61f/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/config/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/config/HibernateConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/config/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/config/ServletInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/dao/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/dao/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/addUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/allUsers.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/editUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/error.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/home.jsp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +52,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="Jsp File" />
-        <option value="Interface" />
-        <option value="JUnit5 Test Class" />
+        <option value="HTML File" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -35,6 +67,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0339884c-41c4-4502-99ae-5a89aae0fe6c/console.sql" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/com/spring/config/HibernateConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/com/spring/service/UserServiceImpl.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -47,7 +80,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2GU3HWJiJmmLe6WktsOtdp4YLWX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,6 +93,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -68,12 +102,13 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Евгений/.m2/repository/org/hibernate/orm/hibernate-core/6.1.4.Final/hibernate-core-6.1.4.Final.jar",
+    "last_opened_file_path": "C:/Users/Евгений/IdeaProjects/Spring_MVC_Hibernate",
     "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "f0f8b59cbb5fbfb21c68884befc601af"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -88,6 +123,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Евгений\IdeaProjects\Spring_MVC_Hibernate\src\main\webapp\WEB-INF\views\users" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.spring.entity" />
     </key>
@@ -96,6 +134,13 @@
     <option name="openRunningConfigInTab" value="true" />
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.68">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Spring_MVC_Hibernate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in Spring_MVC_Hibernate (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring_MVC_Hibernate" />
       <option name="PACKAGE_NAME" value="" />
@@ -114,11 +159,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Spring_MVC_Hibernate" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.entity.*" />
+          <option name="PATTERN" value="com.spring.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,6 +175,7 @@
       </method>
     </configuration>
     <configuration name="Tomcat 9.0.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.68" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SpringMVC_Hibernate_war/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Spring_MVC_Hibernate:war">
@@ -217,6 +263,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.UserTest" />
       <item itemvalue="JUnit.All in Spring_MVC_Hibernate" />
       <item itemvalue="JUnit.All in Spring_MVC_Hibernate (1)" />
@@ -224,7 +271,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in Spring_MVC_Hibernate" />
         <item itemvalue="JUnit.All in Spring_MVC_Hibernate (1)" />
       </list>
@@ -238,7 +285,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1666429249888</updated>
-      <workItem from="1666429252183" duration="36562000" />
+      <workItem from="1666429252183" duration="43616000" />
+      <workItem from="1667236272472" duration="329000" />
+      <workItem from="1667653026596" duration="5870000" />
     </task>
     <task id="LOCAL-00001" summary="2.3.1">
       <created>1666612571846</created>
@@ -268,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666620959929</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2.3.3">
+      <created>1666621086060</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666621086060</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

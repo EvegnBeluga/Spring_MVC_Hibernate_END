@@ -1,10 +1,10 @@
-package com.spring.service;
+package com.spring.dao;
 
 import com.spring.model.User;
 
 import java.util.List;
 
-public interface UserService {
+public interface UserDao {
     void addUser(User user);
 
     List<User> showUsers();
